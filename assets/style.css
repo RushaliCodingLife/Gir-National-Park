@@ -1,0 +1,124 @@
+
+.container-head{  margin: 0;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+
+}
+
+  
+  .container-head::before {    
+    content: "";
+    background-image: url("https://github.com/WhiteWolfMSBC/Gir-National-Park/blob/master/Images/2.jpg?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+  }
+
+
+  
+
+
+
+
+  /* ANIMATION */
+
+ 
+.text {
+    position: absolute;
+    top: 65%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 5em;
+    font-weight: 600;
+    color: #f5f5f5ad;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #671f1f,
+        1px 3px 1px #181212,
+        1px 4px 1px #2a0d0d,
+        1px 5px 1px #000000,
+        1px 6px 1px #e0d9d9,
+        1px 7px 1px #093667,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(251, 241, 241, 0.4),
+    1px 22px 10px rgba(222, 201, 201, 0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+#rcorners1 {
+    border-radius: 25px;
+   padding: 20px;
+    width: 600px;
+    height: 400px;
+  }
+  
+
+
+  .nav-link{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .nav-navbar .nav-link:hover{
+    color: rgb(167, 116, 8);
+    border-bottom: 4px solid cornflowerblue;
+    border-radius: 50%;
+  }
+  
+  .nav-navbar .nav-link:focus{
+  border-bottom: 4px solid coral;
+  
+  }
+  
+
+
+
+  .heading
+  {font-family: "Times New Roman", Times, serif;}
+
+  .heading-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #rcorners2 {
+    border-radius: 25px;
+   padding: 20px;
+    width: 600px;
+    height: 550px;
+  }
+  
+  .btn-head:hover{
+    color: rgb(95, 74, 214);
+   
+  }
+
+.btn-contact{
+color: #093667;
+}
+
+.card{
+  box-shadow: 0 10px 25px rgba(39, 41, 43, 0.2);
+  background-color:white;
+border-radius: 0;
+border: 0;
+margin-bottom: 1.5em;
+transition: transform 0.2s ease;
+}
+
+.heading1{
+  border-bottom: 4px solid sandybrown;
+  font-family: "Times New Roman", Times, serif;
+  max-width: 90px;
+}
